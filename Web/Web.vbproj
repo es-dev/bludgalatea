@@ -42,200 +42,201 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Aspose.Pdf.Kit">
-      <HintPath>..\..\..\Tools Visual Studio.net\Gizmox.Library.Framework4.5.1\Bin\Aspose.Pdf.Kit.dll</HintPath>
+      <HintPath>..\..\..\..\Tools Visual Studio.NET\Gizmox.Library.Framework4.5.1\Bin\Aspose.Pdf.Kit.dll</HintPath>
     </Reference>
     <Reference Include="Aspose.Words">
-      <HintPath>..\..\..\Tools Visual Studio.net\Gizmox.Library.Framework4.5.1\Bin\Aspose.Words.dll</HintPath>
+      <HintPath>..\..\..\..\Tools Visual Studio.NET\Gizmox.Library.Framework4.5.1\Bin\Aspose.Words.dll</HintPath>
     </Reference>
     <Reference Include="EntityFramework">
-      <HintPath>..\..\..\Tools Visual Studio.net\Gizmox.Library.Framework4.5.1\Bin\EntityFramework.dll</HintPath>
+      <HintPath>..\..\..\..\Tools Visual Studio.NET\Gizmox.Library.Framework4.5.1\Bin\EntityFramework.dll</HintPath>
     </Reference>
     <Reference Include="EntityFramework.SqlServer">
-      <HintPath>..\..\..\Tools Visual Studio.net\Gizmox.Library.Framework4.5.1\Bin\EntityFramework.SqlServer.dll</HintPath>
+      <HintPath>..\..\..\..\Tools Visual Studio.NET\Gizmox.Library.Framework4.5.1\Bin\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
     <Reference Include="EntityFramework.SqlServerCompact">
-      <HintPath>..\..\..\Tools Visual Studio.net\Gizmox.Library.Framework4.5.1\Bin\EntityFramework.SqlServerCompact.dll</HintPath>
+      <HintPath>..\..\..\..\Tools Visual Studio.NET\Gizmox.Library.Framework4.5.1\Bin\EntityFramework.SqlServerCompact.dll</HintPath>
     </Reference>
     <Reference Include="ESD.Library">
-      <HintPath>..\..\..\Tools Visual Studio.net\Gizmox.Library.Framework4.5.1\Bin\ESD.Library.dll</HintPath>
+      <HintPath>..\Library\ExternalReferences\ESD.Library.dll</HintPath>
     </Reference>
     <Reference Include="Gizmox.WebGUI.3rdParty.Assemblies">
-      <HintPath>..\..\..\Tools Visual Studio.net\Gizmox.Library.Framework4.5.1\Bin\Gizmox.WebGUI.3rdParty.Assemblies.dll</HintPath>
+      <HintPath>..\..\..\..\Tools Visual Studio.NET\Gizmox.Library.Framework4.5.1\Bin\Gizmox.WebGUI.3rdParty.Assemblies.dll</HintPath>
     </Reference>
-    <Reference Include="Gizmox.WebGUI.Client, Version=4.5.15701.0, Culture=neutral, PublicKeyToken=0fb8f99bd6cd7e23, processorArchitecture=MSIL">
+    <Reference Include="Gizmox.WebGUI.Client, Version=4.5.5701.0, Culture=neutral, PublicKeyToken=0fb8f99bd6cd7e23, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Tools Visual Studio.net\Gizmox.Library.Framework4.5.1\Bin\Gizmox.WebGUI.Client.dll</HintPath>
+      <HintPath>..\..\..\..\Tools Visual Studio.NET\Gizmox.Library.Framework4.5.1\Bin\Gizmox.WebGUI.Client.dll</HintPath>
     </Reference>
-    <Reference Include="Gizmox.WebGUI.Common, Version=4.5.15701.0, Culture=neutral, PublicKeyToken=263fa4ef694acff6, processorArchitecture=MSIL">
+    <Reference Include="Gizmox.WebGUI.Common, Version=4.5.5701.0, Culture=neutral, PublicKeyToken=263fa4ef694acff6, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Tools Visual Studio.net\Gizmox.Library.Framework4.5.1\Bin\Gizmox.WebGUI.Common.dll</HintPath>
+      <HintPath>..\..\..\..\Tools Visual Studio.NET\Gizmox.Library.Framework4.5.1\Bin\Gizmox.WebGUI.Common.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Gizmox.WebGUI.Common.Design, Version=4.5.15701.0, Culture=neutral, PublicKeyToken=ea5dfe57c8eb7edd, processorArchitecture=MSIL">
+    <Reference Include="Gizmox.WebGUI.Common.Design, Version=4.5.5701.0, Culture=neutral, PublicKeyToken=ea5dfe57c8eb7edd, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Tools Visual Studio.net\Gizmox.Library.Framework4.5.1\Bin\Gizmox.WebGUI.Common.Design.dll</HintPath>
+      <HintPath>..\..\..\..\Tools Visual Studio.NET\Gizmox.Library.Framework4.5.1\Bin\Gizmox.WebGUI.Common.Design.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Gizmox.WebGUI.Common.Design.Skins, Version=4.5.15701.0, Culture=neutral, PublicKeyToken=82814e180535b402, processorArchitecture=MSIL">
+    <Reference Include="Gizmox.WebGUI.Common.Design.Skins, Version=4.5.5701.0, Culture=neutral, PublicKeyToken=82814e180535b402, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Tools Visual Studio.net\Gizmox.Library.Framework4.5.1\Bin\Gizmox.WebGUI.Common.Design.Skins.dll</HintPath>
+      <HintPath>..\..\..\..\Tools Visual Studio.NET\Gizmox.Library.Framework4.5.1\Bin\Gizmox.WebGUI.Common.Design.Skins.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Gizmox.WebGUI.Converters, Version=4.5.15701.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="Gizmox.WebGUI.Converters, Version=4.5.5701.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Tools Visual Studio.net\Gizmox.Library.Framework4.5.1\Bin\Gizmox.WebGUI.Converters.dll</HintPath>
+      <HintPath>..\..\..\..\Tools Visual Studio.NET\Gizmox.Library.Framework4.5.1\Bin\Gizmox.WebGUI.Converters.dll</HintPath>
     </Reference>
-    <Reference Include="Gizmox.WebGUI.Forms, Version=4.5.15701.0, Culture=neutral, PublicKeyToken=c508b41386c60f1d, processorArchitecture=MSIL">
+    <Reference Include="Gizmox.WebGUI.Forms, Version=4.5.5701.0, Culture=neutral, PublicKeyToken=c508b41386c60f1d, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Tools Visual Studio.net\Gizmox.Library.Framework4.5.1\Bin\Gizmox.WebGUI.Forms.dll</HintPath>
+      <HintPath>..\..\..\..\Tools Visual Studio.NET\Gizmox.Library.Framework4.5.1\Bin\Gizmox.WebGUI.Forms.dll</HintPath>
     </Reference>
     <Reference Include="Gizmox.WebGUI.Forms.Catalog">
-      <HintPath>..\..\..\Tools Visual Studio.net\Gizmox.Library.Framework4.5.1\Bin\Gizmox.WebGUI.Forms.Catalog.dll</HintPath>
+      <HintPath>..\..\..\..\Tools Visual Studio.NET\Gizmox.Library.Framework4.5.1\Bin\Gizmox.WebGUI.Forms.Catalog.dll</HintPath>
     </Reference>
-    <Reference Include="Gizmox.WebGUI.Forms.Charts, Version=4.5.15701.0, Culture=neutral, PublicKeyToken=f1bb83df6a8597fb, processorArchitecture=MSIL">
+    <Reference Include="Gizmox.WebGUI.Forms.Charts, Version=4.5.5701.0, Culture=neutral, PublicKeyToken=f1bb83df6a8597fb, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Tools Visual Studio.net\Gizmox.Library.Framework4.5.1\Bin\Gizmox.WebGUI.Forms.Charts.dll</HintPath>
+      <HintPath>..\..\..\..\Tools Visual Studio.NET\Gizmox.Library.Framework4.5.1\Bin\Gizmox.WebGUI.Forms.Charts.dll</HintPath>
     </Reference>
     <Reference Include="Gizmox.WebGUI.Forms.CompanionKit">
-      <HintPath>..\..\..\Tools Visual Studio.net\Gizmox.Library.Framework4.5.1\Bin\Gizmox.WebGUI.Forms.CompanionKit.dll</HintPath>
+      <HintPath>..\..\..\..\Tools Visual Studio.NET\Gizmox.Library.Framework4.5.1\Bin\Gizmox.WebGUI.Forms.CompanionKit.dll</HintPath>
     </Reference>
     <Reference Include="Gizmox.WebGUI.Forms.CompanionKit.Engine">
-      <HintPath>..\..\..\Tools Visual Studio.net\Gizmox.Library.Framework4.5.1\Bin\Gizmox.WebGUI.Forms.CompanionKit.Engine.dll</HintPath>
+      <HintPath>..\..\..\..\Tools Visual Studio.NET\Gizmox.Library.Framework4.5.1\Bin\Gizmox.WebGUI.Forms.CompanionKit.Engine.dll</HintPath>
     </Reference>
-    <Reference Include="Gizmox.WebGUI.Forms.Design, Version=4.5.15701.0, Culture=neutral, PublicKeyToken=dd2a1fd4d120c769, processorArchitecture=MSIL">
+    <Reference Include="Gizmox.WebGUI.Forms.Design, Version=4.5.5701.0, Culture=neutral, PublicKeyToken=dd2a1fd4d120c769, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Tools Visual Studio.net\Gizmox.Library.Framework4.5.1\Bin\Gizmox.WebGUI.Forms.Design.dll</HintPath>
+      <HintPath>..\..\..\..\Tools Visual Studio.NET\Gizmox.Library.Framework4.5.1\Bin\Gizmox.WebGUI.Forms.Design.dll</HintPath>
     </Reference>
     <Reference Include="Gizmox.WebGUI.Forms.Design.resources">
-      <HintPath>..\..\..\Tools Visual Studio.net\Gizmox.Library.Framework4.5.1\Bin\Gizmox.WebGUI.Forms.Design.resources.dll</HintPath>
+      <HintPath>..\..\..\..\Tools Visual Studio.NET\Gizmox.Library.Framework4.5.1\Bin\Gizmox.WebGUI.Forms.Design.resources.dll</HintPath>
     </Reference>
-    <Reference Include="Gizmox.WebGUI.Forms.Extended, Version=4.5.15701.0, Culture=neutral, PublicKeyToken=85eae29607c9f5f3, processorArchitecture=MSIL">
+    <Reference Include="Gizmox.WebGUI.Forms.Extended, Version=4.5.5701.0, Culture=neutral, PublicKeyToken=85eae29607c9f5f3, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Tools Visual Studio.net\Gizmox.Library.Framework4.5.1\Bin\Gizmox.WebGUI.Forms.Extended.dll</HintPath>
+      <HintPath>..\..\..\..\Tools Visual Studio.NET\Gizmox.Library.Framework4.5.1\Bin\Gizmox.WebGUI.Forms.Extended.dll</HintPath>
     </Reference>
-    <Reference Include="Gizmox.WebGUI.Forms.Extended.Design, Version=4.5.15701.0, Culture=neutral, PublicKeyToken=63e79e6cd5280864, processorArchitecture=MSIL">
+    <Reference Include="Gizmox.WebGUI.Forms.Extended.Design, Version=4.5.5701.0, Culture=neutral, PublicKeyToken=63e79e6cd5280864, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Tools Visual Studio.net\Gizmox.Library.Framework4.5.1\Bin\Gizmox.WebGUI.Forms.Extended.Design.dll</HintPath>
+      <HintPath>..\..\..\..\Tools Visual Studio.NET\Gizmox.Library.Framework4.5.1\Bin\Gizmox.WebGUI.Forms.Extended.Design.dll</HintPath>
     </Reference>
-    <Reference Include="Gizmox.WebGUI.Forms.Help, Version=4.5.15701.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="Gizmox.WebGUI.Forms.Help, Version=4.5.5701.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Tools Visual Studio.net\Gizmox.Library.Framework4.5.1\Bin\Gizmox.WebGUI.Forms.Help.dll</HintPath>
+      <HintPath>..\..\..\..\Tools Visual Studio.NET\Gizmox.Library.Framework4.5.1\Bin\Gizmox.WebGUI.Forms.Help.dll</HintPath>
     </Reference>
     <Reference Include="Gizmox.WebGUI.Forms.KB.Engine">
-      <HintPath>..\..\..\Tools Visual Studio.net\Gizmox.Library.Framework4.5.1\Bin\Gizmox.WebGUI.Forms.KB.Engine.dll</HintPath>
+      <HintPath>..\..\..\..\Tools Visual Studio.NET\Gizmox.Library.Framework4.5.1\Bin\Gizmox.WebGUI.Forms.KB.Engine.dll</HintPath>
     </Reference>
-    <Reference Include="Gizmox.WebGUI.Forms.Office, Version=4.5.15701.0, Culture=neutral, PublicKeyToken=d50c2c7452ba77d9, processorArchitecture=MSIL">
+    <Reference Include="Gizmox.WebGUI.Forms.Office, Version=4.5.5701.0, Culture=neutral, PublicKeyToken=d50c2c7452ba77d9, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Tools Visual Studio.net\Gizmox.Library.Framework4.5.1\Bin\Gizmox.WebGUI.Forms.Office.dll</HintPath>
+      <HintPath>..\..\..\..\Tools Visual Studio.NET\Gizmox.Library.Framework4.5.1\Bin\Gizmox.WebGUI.Forms.Office.dll</HintPath>
     </Reference>
-    <Reference Include="Gizmox.WebGUI.Forms.Office.Design, Version=4.5.15701.0, Culture=neutral, PublicKeyToken=e838c68aaf727726, processorArchitecture=MSIL">
+    <Reference Include="Gizmox.WebGUI.Forms.Office.Design, Version=4.5.5701.0, Culture=neutral, PublicKeyToken=e838c68aaf727726, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Tools Visual Studio.net\Gizmox.Library.Framework4.5.1\Bin\Gizmox.WebGUI.Forms.Office.Design.dll</HintPath>
+      <HintPath>..\..\..\..\Tools Visual Studio.NET\Gizmox.Library.Framework4.5.1\Bin\Gizmox.WebGUI.Forms.Office.Design.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Gizmox.WebGUI.Forms.Phonegap.Integration, Version=4.5.15701.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="Gizmox.WebGUI.Forms.Phonegap.Integration, Version=4.5.5701.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Tools Visual Studio.net\Gizmox.Library.Framework4.5.1\Bin\Gizmox.WebGUI.Forms.Phonegap.Integration.dll</HintPath>
+      <HintPath>..\..\..\..\Tools Visual Studio.NET\Gizmox.Library.Framework4.5.1\Bin\Gizmox.WebGUI.Forms.Phonegap.Integration.dll</HintPath>
     </Reference>
-    <Reference Include="Gizmox.WebGUI.Forms.Professional, Version=4.5.15701.0, Culture=neutral, PublicKeyToken=6b5c571512bede7c, processorArchitecture=MSIL">
+    <Reference Include="Gizmox.WebGUI.Forms.Professional, Version=4.5.5701.0, Culture=neutral, PublicKeyToken=6b5c571512bede7c, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Tools Visual Studio.net\Gizmox.Library.Framework4.5.1\Bin\Gizmox.WebGUI.Forms.Professional.dll</HintPath>
+      <HintPath>..\..\..\..\Tools Visual Studio.NET\Gizmox.Library.Framework4.5.1\Bin\Gizmox.WebGUI.Forms.Professional.dll</HintPath>
     </Reference>
     <Reference Include="Gizmox.WebGUI.Forms.resources">
-      <HintPath>..\..\..\Tools Visual Studio.net\Gizmox.Library.Framework4.5.1\Bin\Gizmox.WebGUI.Forms.resources.dll</HintPath>
+      <HintPath>..\..\..\..\Tools Visual Studio.NET\Gizmox.Library.Framework4.5.1\Bin\Gizmox.WebGUI.Forms.resources.dll</HintPath>
     </Reference>
     <Reference Include="Gizmox.WebGUI.Forms.SignalR, Version=4.5.15701.0, Culture=neutral, PublicKeyToken=d1d96d1d1f5b7583, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Tools Visual Studio.net\Gizmox.Library.Framework4.5.1\Bin\Gizmox.WebGUI.Forms.SignalR.dll</HintPath>
+      <HintPath>..\..\..\..\Tools Visual Studio.NET\Gizmox.Library.Framework4.5.1\Bin\Gizmox.WebGUI.Forms.SignalR.dll</HintPath>
     </Reference>
-    <Reference Include="Gizmox.WebGUI.Forms.Themes, Version=4.5.15701.0, Culture=neutral, PublicKeyToken=263fa4ef694acff6, processorArchitecture=MSIL">
+    <Reference Include="Gizmox.WebGUI.Forms.Themes, Version=4.5.5701.0, Culture=neutral, PublicKeyToken=263fa4ef694acff6, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Tools Visual Studio.net\Gizmox.Library.Framework4.5.1\Bin\Gizmox.WebGUI.Forms.Themes.dll</HintPath>
+      <HintPath>..\..\..\..\Tools Visual Studio.NET\Gizmox.Library.Framework4.5.1\Bin\Gizmox.WebGUI.Forms.Themes.dll</HintPath>
     </Reference>
     <Reference Include="Gizmox.WebGUI.References, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Tools Visual Studio.net\Gizmox.Library.Framework4.5.1\Bin\Gizmox.WebGUI.References.dll</HintPath>
+      <HintPath>..\..\..\..\Tools Visual Studio.NET\Gizmox.Library.Framework4.5.1\Bin\Gizmox.WebGUI.References.dll</HintPath>
     </Reference>
-    <Reference Include="Gizmox.WebGUI.Reporting, Version=4.5.15701.0, Culture=neutral, PublicKeyToken=ff9cb9557af1f587, processorArchitecture=MSIL">
+    <Reference Include="Gizmox.WebGUI.Reporting, Version=4.5.5701.0, Culture=neutral, PublicKeyToken=ff9cb9557af1f587, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Tools Visual Studio.net\Gizmox.Library.Framework4.5.1\Bin\Gizmox.WebGUI.Reporting.dll</HintPath>
+      <HintPath>..\..\..\..\Tools Visual Studio.NET\Gizmox.Library.Framework4.5.1\Bin\Gizmox.WebGUI.Reporting.dll</HintPath>
     </Reference>
-    <Reference Include="Gizmox.WebGUI.Server, Version=4.5.15701.0, Culture=neutral, PublicKeyToken=3de6eb684226c24d, processorArchitecture=MSIL">
+    <Reference Include="Gizmox.WebGUI.Server, Version=4.5.5701.0, Culture=neutral, PublicKeyToken=3de6eb684226c24d, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Tools Visual Studio.net\Gizmox.Library.Framework4.5.1\Bin\Gizmox.WebGUI.Server.dll</HintPath>
+      <HintPath>..\..\..\..\Tools Visual Studio.NET\Gizmox.Library.Framework4.5.1\Bin\Gizmox.WebGUI.Server.dll</HintPath>
     </Reference>
-    <Reference Include="Gizmox.WebGUI.VisualBasic.Compatibility, Version=4.5.15701.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="Gizmox.WebGUI.VisualBasic.Compatibility, Version=4.5.5701.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Tools Visual Studio.net\Gizmox.Library.Framework4.5.1\Bin\Gizmox.WebGUI.VisualBasic.Compatibility.dll</HintPath>
+      <HintPath>..\..\..\..\Tools Visual Studio.NET\Gizmox.Library.Framework4.5.1\Bin\Gizmox.WebGUI.VisualBasic.Compatibility.dll</HintPath>
     </Reference>
-    <Reference Include="Gizmox.WebGUI.VisualBasic.Compatibility.Data, Version=4.5.15701.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="Gizmox.WebGUI.VisualBasic.Compatibility.Data, Version=4.5.5701.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Tools Visual Studio.net\Gizmox.Library.Framework4.5.1\Bin\Gizmox.WebGUI.VisualBasic.Compatibility.Data.dll</HintPath>
+      <HintPath>..\..\..\..\Tools Visual Studio.NET\Gizmox.Library.Framework4.5.1\Bin\Gizmox.WebGUI.VisualBasic.Compatibility.Data.dll</HintPath>
     </Reference>
-    <Reference Include="Gizmox.WinForms.VisualBasic.Compatibility, Version=4.5.15701.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="Gizmox.WinForms.VisualBasic.Compatibility, Version=4.5.5701.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Tools Visual Studio.net\Gizmox.Library.Framework4.5.1\Bin\Gizmox.WinForms.VisualBasic.Compatibility.dll</HintPath>
+      <HintPath>..\..\..\..\Tools Visual Studio.NET\Gizmox.Library.Framework4.5.1\Bin\Gizmox.WinForms.VisualBasic.Compatibility.dll</HintPath>
     </Reference>
     <Reference Include="ICSharpCode.SharpZipLib, Version=0.85.1.271, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Tools Visual Studio.net\Gizmox.Library.Framework4.5.1\Bin\ICSharpCode.SharpZipLib.dll</HintPath>
+      <HintPath>..\..\..\..\Tools Visual Studio.NET\Gizmox.Library.Framework4.5.1\Bin\ICSharpCode.SharpZipLib.dll</HintPath>
     </Reference>
     <Reference Include="Itenso.Rtf.Converter.Html, Version=1.3.0.0, Culture=neutral, PublicKeyToken=d7f23b760ed5c748, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Tools Visual Studio.net\Gizmox.Library.Framework4.5.1\Bin\Itenso.Rtf.Converter.Html.dll</HintPath>
+      <HintPath>..\..\..\..\Tools Visual Studio.NET\Gizmox.Library.Framework4.5.1\Bin\Itenso.Rtf.Converter.Html.dll</HintPath>
     </Reference>
     <Reference Include="Itenso.Rtf.Interpreter, Version=1.3.0.0, Culture=neutral, PublicKeyToken=d7f23b760ed5c748, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Tools Visual Studio.net\Gizmox.Library.Framework4.5.1\Bin\Itenso.Rtf.Interpreter.dll</HintPath>
+      <HintPath>..\..\..\..\Tools Visual Studio.NET\Gizmox.Library.Framework4.5.1\Bin\Itenso.Rtf.Interpreter.dll</HintPath>
     </Reference>
     <Reference Include="Itenso.Rtf.Parser, Version=1.3.0.0, Culture=neutral, PublicKeyToken=d7f23b760ed5c748, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Tools Visual Studio.net\Gizmox.Library.Framework4.5.1\Bin\Itenso.Rtf.Parser.dll</HintPath>
+      <HintPath>..\..\..\..\Tools Visual Studio.NET\Gizmox.Library.Framework4.5.1\Bin\Itenso.Rtf.Parser.dll</HintPath>
     </Reference>
     <Reference Include="Itenso.Sys, Version=2.3.0.0, Culture=neutral, PublicKeyToken=d7f23b760ed5c748, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Tools Visual Studio.net\Gizmox.Library.Framework4.5.1\Bin\Itenso.Sys.dll</HintPath>
+      <HintPath>..\..\..\..\Tools Visual Studio.NET\Gizmox.Library.Framework4.5.1\Bin\Itenso.Sys.dll</HintPath>
     </Reference>
     <Reference Include="itextsharp">
-      <HintPath>..\..\..\Tools Visual Studio.net\Gizmox.Library.Framework4.5.1\Bin\itextsharp.dll</HintPath>
+      <HintPath>..\..\..\..\Tools Visual Studio.NET\Gizmox.Library.Framework4.5.1\Bin\itextsharp.dll</HintPath>
     </Reference>
-    <Reference Include="Lucene.Net">
-      <HintPath>..\..\..\Tools Visual Studio.net\Gizmox.Library.Framework4.5.1\Bin\Lucene.Net.dll</HintPath>
+    <Reference Include="Lucene.Net, Version=2.9.2.1, Culture=neutral, PublicKeyToken=402f1553d5c332e7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Tools Visual Studio.NET\Gizmox.Library.Framework4.5.1\Bin\Lucene.Net.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.AspNet.SignalR.Core, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Tools Visual Studio.net\Gizmox.Library.Framework4.5.1\Bin\Microsoft.AspNet.SignalR.Core.dll</HintPath>
+      <HintPath>..\..\..\..\Tools Visual Studio.NET\Gizmox.Library.Framework4.5.1\Bin\Microsoft.AspNet.SignalR.Core.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.AspNet.SignalR.SystemWeb, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Tools Visual Studio.net\Gizmox.Library.Framework4.5.1\Bin\Microsoft.AspNet.SignalR.SystemWeb.dll</HintPath>
+      <HintPath>..\..\..\..\Tools Visual Studio.NET\Gizmox.Library.Framework4.5.1\Bin\Microsoft.AspNet.SignalR.SystemWeb.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Owin, Version=2.0.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Tools Visual Studio.net\Gizmox.Library.Framework4.5.1\Bin\Microsoft.Owin.dll</HintPath>
+      <HintPath>..\..\..\..\Tools Visual Studio.NET\Gizmox.Library.Framework4.5.1\Bin\Microsoft.Owin.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Owin.Security, Version=2.0.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Tools Visual Studio.net\Gizmox.Library.Framework4.5.1\Bin\Microsoft.Owin.Security.dll</HintPath>
+      <HintPath>..\..\..\..\Tools Visual Studio.NET\Gizmox.Library.Framework4.5.1\Bin\Microsoft.Owin.Security.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.ReportViewer.WebForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Tools Visual Studio.net\Gizmox.Library.Framework4.5.1\Bin\Microsoft.ReportViewer.WebForms.dll</HintPath>
+      <HintPath>..\..\..\..\Tools Visual Studio.NET\Gizmox.Library.Framework4.5.1\Bin\Microsoft.ReportViewer.WebForms.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Tools Visual Studio.net\Gizmox.Library.Framework4.5.1\Bin\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\..\..\..\Tools Visual Studio.NET\Gizmox.Library.Framework4.5.1\Bin\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Owin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f0ebd12fd5e55cc5, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Tools Visual Studio.net\Gizmox.Library.Framework4.5.1\Bin\Owin.dll</HintPath>
+      <HintPath>..\..\..\..\Tools Visual Studio.NET\Gizmox.Library.Framework4.5.1\Bin\Owin.dll</HintPath>
     </Reference>
     <Reference Include="Spire.License">
-      <HintPath>..\..\..\Tools Visual Studio.net\Gizmox.Library.Framework4.5.1\Bin\Spire.License.dll</HintPath>
+      <HintPath>..\..\..\..\Tools Visual Studio.NET\Gizmox.Library.Framework4.5.1\Bin\Spire.License.dll</HintPath>
     </Reference>
     <Reference Include="Spire.XLS">
-      <HintPath>..\..\..\Tools Visual Studio.net\Gizmox.Library.Framework4.5.1\Bin\Spire.XLS.dll</HintPath>
+      <HintPath>..\..\..\..\Tools Visual Studio.NET\Gizmox.Library.Framework4.5.1\Bin\Spire.XLS.dll</HintPath>
     </Reference>
     <Reference Include="System">
       <Private>True</Private>
@@ -285,28 +286,28 @@
     <Reference Include="System.Web.ApplicationServices">
       <Private>True</Private>
     </Reference>
-    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <Private>True</Private>
-      <HintPath>$nugetpackagesfolder$Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    <Reference Include="Telerik.OpenAccess, Version=2014.1.403.2, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Tools Visual Studio.NET\Gizmox.Library.Framework4.5.1\Bin\Telerik.OpenAccess.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.OpenAccess">
-      <HintPath>..\..\..\Tools Visual Studio.net\Gizmox.Library.Framework4.5.1\Bin\Telerik.OpenAccess.dll</HintPath>
+    <Reference Include="Telerik.OpenAccess.35.Extensions, Version=2014.1.403.2, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Tools Visual Studio.NET\Gizmox.Library.Framework4.5.1\Bin\Telerik.OpenAccess.35.Extensions.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.OpenAccess.35.Extensions">
-      <HintPath>..\..\..\Tools Visual Studio.net\Gizmox.Library.Framework4.5.1\Bin\Telerik.OpenAccess.35.Extensions.dll</HintPath>
+    <Reference Include="Telerik.OpenAccess.40.Extensions, Version=2014.1.403.2, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Tools Visual Studio.NET\Gizmox.Library.Framework4.5.1\Bin\Telerik.OpenAccess.40.Extensions.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.OpenAccess.40.Extensions">
-      <HintPath>..\..\..\Tools Visual Studio.net\Gizmox.Library.Framework4.5.1\Bin\Telerik.OpenAccess.40.Extensions.dll</HintPath>
-    </Reference>
-    <Reference Include="Telerik.OpenAccess.Runtime">
-      <HintPath>..\..\..\Tools Visual Studio.net\Gizmox.Library.Framework4.5.1\Bin\Telerik.OpenAccess.Runtime.dll</HintPath>
+    <Reference Include="Telerik.OpenAccess.Runtime, Version=2014.1.403.2, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Tools Visual Studio.NET\Gizmox.Library.Framework4.5.1\Bin\Telerik.OpenAccess.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="WindowsBase">
       <Private>True</Private>
     </Reference>
     <Reference Include="ZedGraph, Version=5.1.5.28844, Culture=neutral, PublicKeyToken=02a83cbd123fcd60, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Tools Visual Studio.net\Gizmox.Library.Framework4.5.1\Bin\ZedGraph.dll</HintPath>
+      <HintPath>..\..\..\..\Tools Visual Studio.NET\Gizmox.Library.Framework4.5.1\Bin\ZedGraph.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
