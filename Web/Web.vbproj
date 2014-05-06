@@ -339,6 +339,7 @@
     <Content Include="ChiSiamo.html" />
     <Content Include="ComeDonare.html" />
     <Content Include="IoCresco.html" />
+    <Content Include="LoSapeviChe.html" />
     <Content Include="PercheDonare.html" />
     <Content Include="Readme.txt" />
     <Content Include="Resources\Images\abio.jpg" />
@@ -432,6 +433,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="IoCresco.resx">
       <DependentUpon>IoCresco.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoSapeviChe.resx">
+      <DependentUpon>LoSapeviChe.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PercheDonare.resx">
       <DependentUpon>PercheDonare.vb</DependentUpon>

@@ -25,8 +25,61 @@ Partial Class LoSapeviChe
 	''' the contents of this method with the code editor.
 	''' </summary>
     Private Sub InitializeComponent()
-        components = New System.ComponentModel.Container()
+        Me.panelContenuto = New Gizmox.WebGUI.Forms.Panel()
+        Me.htmlLoSapeviChe = New Library.TemplateHtml()
+        Me.titleLoSapeviChe = New Library.TemplateTitle()
+        Me.panelBody.SuspendLayout()
+        Me.panelContenuto.SuspendLayout()
+        Me.SuspendLayout()
+        '
+        'panelBody
+        '
+        Me.panelBody.Controls.Add(Me.panelContenuto)
+        Me.panelBody.MinimumSize = New System.Drawing.Size(1024, 750)
+        Me.panelBody.Size = New System.Drawing.Size(1024, 750)
+        '
+        'panelContenuto
+        '
+        Me.panelContenuto.Anchor = Gizmox.WebGUI.Forms.AnchorStyles.Top
+        Me.panelContenuto.BackColor = System.Drawing.Color.Pink
+        Me.panelContenuto.Controls.Add(Me.htmlLoSapeviChe)
+        Me.panelContenuto.Controls.Add(Me.titleLoSapeviChe)
+        Me.panelContenuto.Location = New System.Drawing.Point(203, 0)
+        Me.panelContenuto.Name = "panelContenuto"
+        Me.panelContenuto.Size = New System.Drawing.Size(821, 685)
+        Me.panelContenuto.TabIndex = 3
+        '
+        'htmlLoSapeviChe
+        '
+        Me.htmlLoSapeviChe.Anchor = Gizmox.WebGUI.Forms.AnchorStyles.Top
+        Me.htmlLoSapeviChe.AutoValidate = Gizmox.WebGUI.Forms.AutoValidate.EnablePreventFocusChange
+        Me.htmlLoSapeviChe.Html = Nothing
+        Me.htmlLoSapeviChe.Location = New System.Drawing.Point(0, 78)
+        Me.htmlLoSapeviChe.Name = "htmlLoSapeviChe"
+        Me.htmlLoSapeviChe.Size = New System.Drawing.Size(820, 607)
+        Me.htmlLoSapeviChe.TabIndex = 1
+        '
+        'titleLoSapeviChe
+        '
+        Me.titleLoSapeviChe.AutoValidate = Gizmox.WebGUI.Forms.AutoValidate.EnablePreventFocusChange
+        Me.titleLoSapeviChe.Location = New System.Drawing.Point(0, 30)
+        Me.titleLoSapeviChe.Name = "titleLoSapeviChe"
+        Me.titleLoSapeviChe.Size = New System.Drawing.Size(820, 48)
+        Me.titleLoSapeviChe.TabIndex = 0
+        Me.titleLoSapeviChe.TemplateTitle = "Lo sapevi che..."
+        '
+        'LoSapeviChe
+        '
+        Me.Size = New System.Drawing.Size(1024, 1000)
+        Me.Controls.SetChildIndex(Me.panelBody, 0)
+        Me.panelBody.ResumeLayout(False)
+        Me.panelContenuto.ResumeLayout(False)
+        Me.ResumeLayout(False)
+
     End Sub
+    Friend WithEvents panelContenuto As Gizmox.WebGUI.Forms.Panel
+    Friend WithEvents titleLoSapeviChe As Library.TemplateTitle
+    Friend WithEvents htmlLoSapeviChe As Library.TemplateHtml
 
 #End Region
 
