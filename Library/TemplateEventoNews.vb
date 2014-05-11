@@ -43,7 +43,7 @@ Public Class TemplateEventoNews
         End Try
     End Sub
 
-    Private _templateWidthDescrizione As Integer
+    Private _templateWidthDescrizione As Integer = 0
     Public Property TemplateWidthDescrizione As Integer
         Get
             Return _templateWidthDescrizione

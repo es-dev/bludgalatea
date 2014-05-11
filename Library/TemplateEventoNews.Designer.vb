@@ -86,16 +86,17 @@ Partial Class TemplateEventoNews
         Me.panelContenuto.Controls.Add(Me.imgEvento)
         Me.panelContenuto.Location = New System.Drawing.Point(0, 32)
         Me.panelContenuto.Name = "panelContenuto"
-        Me.panelContenuto.Size = New System.Drawing.Size(720, 138)
+        Me.panelContenuto.Size = New System.Drawing.Size(720, 252)
         Me.panelContenuto.TabIndex = 2
         '
         'lblDescrizione
         '
-        Me.lblDescrizione.Anchor = CType((Gizmox.WebGUI.Forms.AnchorStyles.Top Or Gizmox.WebGUI.Forms.AnchorStyles.Right), Gizmox.WebGUI.Forms.AnchorStyles)
         Me.lblDescrizione.BackColor = System.Drawing.Color.Pink
-        Me.lblDescrizione.Location = New System.Drawing.Point(360, 0)
+        Me.lblDescrizione.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblDescrizione.ForeColor = System.Drawing.Color.White
+        Me.lblDescrizione.Location = New System.Drawing.Point(169, 34)
         Me.lblDescrizione.Name = "lblDescrizione"
-        Me.lblDescrizione.Size = New System.Drawing.Size(360, 131)
+        Me.lblDescrizione.Size = New System.Drawing.Size(550, 185)
         Me.lblDescrizione.TabIndex = 1
         Me.lblDescrizione.Text = "Label1"
         '
@@ -104,7 +105,7 @@ Partial Class TemplateEventoNews
         Me.imgEvento.BackColor = System.Drawing.Color.Pink
         Me.imgEvento.Location = New System.Drawing.Point(0, 0)
         Me.imgEvento.Name = "imgEvento"
-        Me.imgEvento.Size = New System.Drawing.Size(360, 131)
+        Me.imgEvento.Size = New System.Drawing.Size(150, 252)
         Me.imgEvento.TabIndex = 0
         Me.imgEvento.TabStop = False
         '
@@ -113,7 +114,7 @@ Partial Class TemplateEventoNews
         Me.BackColor = System.Drawing.Color.Pink
         Me.Controls.Add(Me.panelContenuto)
         Me.Controls.Add(Me.pnlImage)
-        Me.Size = New System.Drawing.Size(820, 170)
+        Me.Size = New System.Drawing.Size(820, 284)
         CType(Me.imgStampa, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.imgEmail, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.imgPdf, System.ComponentModel.ISupportInitialize).EndInit()
@@ -128,7 +129,7 @@ Partial Class TemplateEventoNews
     Friend WithEvents imgPdf As Gizmox.WebGUI.Forms.PictureBox
     Friend WithEvents pnlImage As Gizmox.WebGUI.Forms.Panel
     Friend WithEvents panelContenuto As Gizmox.WebGUI.Forms.Panel
-    Friend WithEvents imgEvento As Gizmox.WebGUI.Forms.PictureBox
     Friend WithEvents lblDescrizione As Gizmox.WebGUI.Forms.Label
+    Friend WithEvents imgEvento As Gizmox.WebGUI.Forms.PictureBox
 
 End Class
