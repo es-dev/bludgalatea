@@ -338,18 +338,21 @@
     <Content Include="ChiPuoDonare.html" />
     <Content Include="ChiSiamo.html" />
     <Content Include="ComeDonare.html" />
+    <Content Include="Homepage.html" />
     <Content Include="IoCresco.html" />
     <Content Include="LoSapeviChe.html" />
     <Content Include="PercheDonare.html" />
     <Content Include="Readme.txt" />
     <Content Include="Resources\Images\abio.jpg" />
+    <Content Include="Resources\Images\bannerpedalata2.jpg" />
+    <Content Include="Resources\Images\banner_gn2010.gif" />
     <Content Include="Resources\Images\blog_header.bmp" />
     <Content Include="Resources\Images\blog_header.jpg" />
-    <Content Include="Resources\Images\BludFlusso.png" />
     <Content Include="Resources\Images\emailButton.png" />
-    <Content Include="Resources\Images\FlussoBlud.png" />
     <Content Include="Resources\Images\footer.png" />
     <Content Include="Resources\Images\galalab.jpg" />
+    <Content Include="Resources\Images\loc1m.jpg" />
+    <Content Include="Resources\Images\loc2m.jpg" />
     <Content Include="Resources\Images\partner.png" />
     <Content Include="Resources\Images\pdf_button.png" />
     <Content Include="Resources\Images\printButton.png" />
@@ -428,6 +431,9 @@
     <EmbeddedResource Include="ComeDonare.resx">
       <DependentUpon>ComeDonare.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="EventiNews.resx">
+      <DependentUpon>EventiNews.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Homepage.resx">
       <DependentUpon>Homepage.vb</DependentUpon>
     </EmbeddedResource>
@@ -445,6 +451,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Resources\PDF\perche-donare.pdf" />
     <None Include="Web.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

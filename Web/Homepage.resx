@@ -117,9 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="labelGalatea.Text" xml:space="preserve">
-    <value>Nasce Galatea, la Banca del latte umano donato, presso l’Azienda Ospedaliera di Cosenza.
-Il suo nome deriva dalla dea del latte, Galatea, e il suo fine è custodire il latte materno donato, per offrirlo a chi ne ha bisogno.
-</value>
-  </data>
 </root>

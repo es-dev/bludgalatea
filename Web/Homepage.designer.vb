@@ -25,11 +25,9 @@ Partial Class Homepage
 	''' the contents of this method with the code editor.
 	''' </summary>
     Private Sub InitializeComponent()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Homepage))
         Me.TemplateTitle1 = New Library.TemplateTitle()
         Me.panelContenuto = New Gizmox.WebGUI.Forms.Panel()
-        Me.Label1 = New Gizmox.WebGUI.Forms.Label()
-        Me.labelGalatea = New Gizmox.WebGUI.Forms.Label()
+        Me.htmlHomepage = New Library.TemplateHtml()
         Me.panelBody.SuspendLayout()
         Me.panelContenuto.SuspendLayout()
         Me.SuspendLayout()
@@ -53,32 +51,21 @@ Partial Class Homepage
         '
         Me.panelContenuto.Anchor = Gizmox.WebGUI.Forms.AnchorStyles.Top
         Me.panelContenuto.BackColor = System.Drawing.Color.Pink
-        Me.panelContenuto.Controls.Add(Me.Label1)
-        Me.panelContenuto.Controls.Add(Me.labelGalatea)
+        Me.panelContenuto.Controls.Add(Me.htmlHomepage)
         Me.panelContenuto.Controls.Add(Me.TemplateTitle1)
         Me.panelContenuto.Location = New System.Drawing.Point(203, 0)
         Me.panelContenuto.Name = "panelContenuto"
-        Me.panelContenuto.Size = New System.Drawing.Size(821, 477)
+        Me.panelContenuto.Size = New System.Drawing.Size(821, 685)
         Me.panelContenuto.TabIndex = 2
         '
-        'Label1
+        'htmlHomepage
         '
-        Me.Label1.Location = New System.Drawing.Point(0, 150)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(821, 23)
-        Me.Label1.TabIndex = 3
-        Me.Label1.Text = "_________________________________________________________________________________" & _
-    "______________________________________________________"
-        '
-        'labelGalatea
-        '
-        Me.labelGalatea.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.labelGalatea.ForeColor = System.Drawing.Color.White
-        Me.labelGalatea.Location = New System.Drawing.Point(0, 96)
-        Me.labelGalatea.Name = "labelGalatea"
-        Me.labelGalatea.Size = New System.Drawing.Size(821, 43)
-        Me.labelGalatea.TabIndex = 2
-        Me.labelGalatea.Text = resources.GetString("labelGalatea.Text")
+        Me.htmlHomepage.AutoValidate = Gizmox.WebGUI.Forms.AutoValidate.EnablePreventFocusChange
+        Me.htmlHomepage.Html = Nothing
+        Me.htmlHomepage.Location = New System.Drawing.Point(0, 77)
+        Me.htmlHomepage.Name = "htmlHomepage"
+        Me.htmlHomepage.Size = New System.Drawing.Size(820, 608)
+        Me.htmlHomepage.TabIndex = 2
         '
         'Homepage
         '
@@ -91,8 +78,7 @@ Partial Class Homepage
     End Sub
     Friend WithEvents TemplateTitle1 As Library.TemplateTitle
     Friend WithEvents panelContenuto As Gizmox.WebGUI.Forms.Panel
-    Friend WithEvents labelGalatea As Gizmox.WebGUI.Forms.Label
-    Friend WithEvents Label1 As Gizmox.WebGUI.Forms.Label
+    Friend WithEvents htmlHomepage As Library.TemplateHtml
 
 #End Region
 
