@@ -67,8 +67,10 @@ Partial Class EventiNews
         Me.TemplateEventoNews1.Name = "TemplateEventoNews1"
         Me.TemplateEventoNews1.Size = New System.Drawing.Size(820, 176)
         Me.TemplateEventoNews1.TabIndex = 0
-        Me.TemplateEventoNews1.TemplateDescription = Nothing
+        Me.TemplateEventoNews1.TemplateDescription = ""
         Me.TemplateEventoNews1.TemplateImage = New Gizmox.WebGUI.Common.Resources.ImageResourceHandle(resources.GetString("TemplateEventoNews1.TemplateImage"))
+        Me.TemplateEventoNews1.TemplateWidthDescrizione = 460
+        Me.TemplateEventoNews1.TemplateWidthImage = 260
         Me.Controls.SetChildIndex(Me.panelBody, 0)
         Me.panelBody.ResumeLayout(False)
         Me.panelContenuto.ResumeLayout(False)

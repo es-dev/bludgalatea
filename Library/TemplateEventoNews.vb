@@ -43,4 +43,42 @@ Public Class TemplateEventoNews
         End Try
     End Sub
 
+    Private _templateWidthDescrizione As Integer
+    Public Property TemplateWidthDescrizione As Integer
+        Get
+            Return _templateWidthDescrizione
+        End Get
+        Set(value As Integer)
+            _templateWidthDescrizione = value
+            SetWidthDescrizione(value)
+        End Set
+    End Property
+
+    Private Sub SetWidthDescrizione(value As Integer)
+        Try
+            lblDescrizione.Width = value
+        Catch ex As Exception
+            ESD.Library.UtilityContainer.ErrorLog(ex)
+        End Try
+    End Sub
+
+    Private _templateWidthImage As Integer
+    Public Property TemplateWidthImage As Integer
+        Get
+            Return _templateWidthImage
+        End Get
+        Set(value As Integer)
+            _templateWidthImage = value
+            SetWidthImage(value)
+        End Set
+    End Property
+
+    Private Sub SetWidthImage(value As Integer)
+        Try
+            imgEvento.Width = value
+        Catch ex As Exception
+            ESD.Library.UtilityContainer.ErrorLog(ex)
+        End Try
+    End Sub
+
 End Class
