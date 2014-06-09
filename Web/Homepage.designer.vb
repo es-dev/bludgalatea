@@ -34,7 +34,6 @@ Partial Class Homepage
         '
         'panelBody
         '
-        Me.panelBody.BackColor = System.Drawing.Color.FromArgb(CType(CType(249, Byte), Integer), CType(CType(202, Byte), Integer), CType(CType(222, Byte), Integer))
         Me.panelBody.Controls.Add(Me.panelContenuto)
         Me.panelBody.MinimumSize = New System.Drawing.Size(1024, 2450)
         Me.panelBody.Size = New System.Drawing.Size(1024, 2450)
