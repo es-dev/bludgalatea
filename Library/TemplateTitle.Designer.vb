@@ -37,7 +37,7 @@ Partial Class TemplateTitle
         'lblTitolo
         '
         Me.lblTitolo.Font = New System.Drawing.Font("Segoe UI", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblTitolo.ForeColor = System.Drawing.Color.White
+        Me.lblTitolo.ForeColor = System.Drawing.Color.Black
         Me.lblTitolo.Location = New System.Drawing.Point(0, 9)
         Me.lblTitolo.Name = "lblTitolo"
         Me.lblTitolo.Size = New System.Drawing.Size(678, 33)
@@ -46,7 +46,7 @@ Partial Class TemplateTitle
         '
         'pnlImage
         '
-        Me.pnlImage.BackColor =  System.Drawing.Color.FromArgb(CType(CType(249, Byte), Integer), CType(CType(202, Byte), Integer), CType(CType(222, Byte), Integer))
+        Me.pnlImage.BackColor = System.Drawing.Color.FromArgb(CType(CType(249, Byte), Integer), CType(CType(202, Byte), Integer), CType(CType(222, Byte), Integer))
         Me.pnlImage.Controls.Add(Me.imgStampa)
         Me.pnlImage.Controls.Add(Me.imgEmail)
         Me.pnlImage.Controls.Add(Me.imgPdf)
