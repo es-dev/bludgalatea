@@ -24,7 +24,7 @@ Public Class Homepage
             Dim reader = IO.File.OpenText(pathFileContent)
             Dim data = reader.ReadToEnd
             reader.Close()
-            Dim urlRoot = UtilityContainer.GetRootUrl(Context)
+            Dim urlRoot = UtilityContainer.GetRootUrl (Context)
             Dim url = urlRoot + "/homepage.html"
             htmlHomepage.Url = url
         Catch ex As Exception

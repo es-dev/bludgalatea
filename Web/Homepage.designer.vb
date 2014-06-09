@@ -35,8 +35,8 @@ Partial Class Homepage
         'panelBody
         '
         Me.panelBody.Controls.Add(Me.panelContenuto)
-        Me.panelBody.MinimumSize = New System.Drawing.Size(1024, 2100)
-        Me.panelBody.Size = New System.Drawing.Size(1024, 2100)
+        Me.panelBody.MinimumSize = New System.Drawing.Size(1024, 2450)
+        Me.panelBody.Size = New System.Drawing.Size(1024, 2450)
         '
         'TemplateTitle1
         '
@@ -55,7 +55,7 @@ Partial Class Homepage
         Me.panelContenuto.Controls.Add(Me.TemplateTitle1)
         Me.panelContenuto.Location = New System.Drawing.Point(203, 0)
         Me.panelContenuto.Name = "panelContenuto"
-        Me.panelContenuto.Size = New System.Drawing.Size(821, 2035)
+        Me.panelContenuto.Size = New System.Drawing.Size(821, 2385)
         Me.panelContenuto.TabIndex = 2
         '
         'htmlHomepage
@@ -64,12 +64,13 @@ Partial Class Homepage
         Me.htmlHomepage.Html = Nothing
         Me.htmlHomepage.Location = New System.Drawing.Point(0, 77)
         Me.htmlHomepage.Name = "htmlHomepage"
-        Me.htmlHomepage.Size = New System.Drawing.Size(820, 2035)
+        Me.htmlHomepage.Size = New System.Drawing.Size(820, 2300)
         Me.htmlHomepage.TabIndex = 2
+        Me.htmlHomepage.Url = Nothing
         '
         'Homepage
         '
-        Me.Size = New System.Drawing.Size(1024, 2250)
+        Me.Size = New System.Drawing.Size(1024, 2350)
         Me.Controls.SetChildIndex(Me.panelBody, 0)
         Me.panelBody.ResumeLayout(False)
         Me.panelContenuto.ResumeLayout(False)
