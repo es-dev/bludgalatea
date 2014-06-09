@@ -25,6 +25,7 @@ Public Class Homepage
             Dim data = reader.ReadToEnd
             reader.Close()
             htmlHomepage.Html = data
+
         Catch ex As Exception
             UtilityContainer.ErrorLog(ex)
         End Try
