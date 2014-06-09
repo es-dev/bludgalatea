@@ -26,6 +26,24 @@ Public Class TemplateHtml
         End Try
     End Sub
 
+    Private _url As String = Nothing
+    Public Property Url As String
+        Get
+            Return _url
+        End Get
+        Set(value As String)
+            _url = value
+            SetUrl(_url)
 
+        End Set
+    End Property
+
+    Private Sub SetUrl(_url As String)
+        Try
+            htmlBox.Url = _url
+        Catch ex As Exception
+            UtilityContainer.ErrorLog(ex)
+        End Try
+    End Sub
 
 End Class
