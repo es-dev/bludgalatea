@@ -17,15 +17,16 @@ Public Class Homepage
         'TODO: Add any initialization after the InitializeComponent call
     End Sub
 
-    Private Sub IoCresco_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+    Private Sub Homepage_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Try
             Dim pathRoot = UtilityContainer.GetRootPath(Context)
             Dim pathFileContent = pathRoot + "Homepage.html"
             Dim reader = IO.File.OpenText(pathFileContent)
             Dim data = reader.ReadToEnd
             reader.Close()
-            htmlHomepage.Html = data
-
+            Dim urlRoot = UtilityContainer.GetRootUrl(Context)
+            Dim url = urlRoot + "/homepage.html"
+            htmlHomepage.Url = url
         Catch ex As Exception
             UtilityContainer.ErrorLog(ex)
         End Try
