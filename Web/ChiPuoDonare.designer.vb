@@ -41,7 +41,7 @@ Partial Class ChiPuoDonare
         'panelContenuto
         '
         Me.panelContenuto.Anchor = Gizmox.WebGUI.Forms.AnchorStyles.Top
-        Me.panelContenuto.BackColor = System.Drawing.Color.Pink
+        Me.panelContenuto.BackColor = System.Drawing.Color.FromArgb(CType(CType(249, Byte), Integer), CType(CType(202, Byte), Integer), CType(CType(222, Byte), Integer))
         Me.panelContenuto.Controls.Add(Me.htmlChiPuoDonare)
         Me.panelContenuto.Controls.Add(Me.titleChiPuoDonare)
         Me.panelContenuto.Location = New System.Drawing.Point(203, 0)

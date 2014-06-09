@@ -70,7 +70,7 @@ Partial Class TemplateEventoNews
         '
         'pnlImage
         '
-        Me.pnlImage.BackColor = System.Drawing.Color.Pink
+        Me.pnlImage.BackColor =  System.Drawing.Color.FromArgb(CType(CType(249, Byte), Integer), CType(CType(202, Byte), Integer), CType(CType(222, Byte), Integer))
         Me.pnlImage.Controls.Add(Me.imgStampa)
         Me.pnlImage.Controls.Add(Me.imgEmail)
         Me.pnlImage.Controls.Add(Me.imgPdf)
@@ -81,7 +81,7 @@ Partial Class TemplateEventoNews
         '
         'panelContenuto
         '
-        Me.panelContenuto.BackColor = System.Drawing.Color.Pink
+        Me.panelContenuto.BackColor =  System.Drawing.Color.FromArgb(CType(CType(249, Byte), Integer), CType(CType(202, Byte), Integer), CType(CType(222, Byte), Integer))
         Me.panelContenuto.Controls.Add(Me.lblDescrizione)
         Me.panelContenuto.Controls.Add(Me.imgEvento)
         Me.panelContenuto.Location = New System.Drawing.Point(0, 32)
@@ -91,7 +91,7 @@ Partial Class TemplateEventoNews
         '
         'lblDescrizione
         '
-        Me.lblDescrizione.BackColor = System.Drawing.Color.Pink
+        Me.lblDescrizione.BackColor =  System.Drawing.Color.FromArgb(CType(CType(249, Byte), Integer), CType(CType(202, Byte), Integer), CType(CType(222, Byte), Integer))
         Me.lblDescrizione.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblDescrizione.ForeColor = System.Drawing.Color.White
         Me.lblDescrizione.Location = New System.Drawing.Point(169, 34)
@@ -102,7 +102,7 @@ Partial Class TemplateEventoNews
         '
         'imgEvento
         '
-        Me.imgEvento.BackColor = System.Drawing.Color.Pink
+        Me.imgEvento.BackColor =  System.Drawing.Color.FromArgb(CType(CType(249, Byte), Integer), CType(CType(202, Byte), Integer), CType(CType(222, Byte), Integer))
         Me.imgEvento.Location = New System.Drawing.Point(0, 0)
         Me.imgEvento.Name = "imgEvento"
         Me.imgEvento.Size = New System.Drawing.Size(150, 252)
@@ -111,7 +111,7 @@ Partial Class TemplateEventoNews
         '
         'TemplateEventoNews
         '
-        Me.BackColor = System.Drawing.Color.Pink
+        Me.BackColor =  System.Drawing.Color.FromArgb(CType(CType(249, Byte), Integer), CType(CType(202, Byte), Integer), CType(CType(222, Byte), Integer))
         Me.Controls.Add(Me.panelContenuto)
         Me.Controls.Add(Me.pnlImage)
         Me.Size = New System.Drawing.Size(820, 284)

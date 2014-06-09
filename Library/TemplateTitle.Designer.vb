@@ -46,7 +46,7 @@ Partial Class TemplateTitle
         '
         'pnlImage
         '
-        Me.pnlImage.BackColor = System.Drawing.Color.Pink
+        Me.pnlImage.BackColor =  System.Drawing.Color.FromArgb(CType(CType(249, Byte), Integer), CType(CType(202, Byte), Integer), CType(CType(222, Byte), Integer))
         Me.pnlImage.Controls.Add(Me.imgStampa)
         Me.pnlImage.Controls.Add(Me.imgEmail)
         Me.pnlImage.Controls.Add(Me.imgPdf)

@@ -27,7 +27,7 @@ Partial Class TemplateHtml
         '
         'htmlBox
         '
-        Me.htmlBox.BackColor = System.Drawing.Color.Pink
+        Me.htmlBox.BackColor =  System.Drawing.Color.FromArgb(CType(CType(249, Byte), Integer), CType(CType(202, Byte), Integer), CType(CType(222, Byte), Integer))
         Me.htmlBox.ContentType = "text/html"
         Me.htmlBox.Dock = Gizmox.WebGUI.Forms.DockStyle.Fill
         Me.htmlBox.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))

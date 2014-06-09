@@ -50,7 +50,7 @@ Partial Class TemplateForm
         '
         'panelHeader
         '
-        Me.panelHeader.BackColor = System.Drawing.Color.Pink
+        Me.panelHeader.BackColor =  System.Drawing.Color.FromArgb(CType(CType(249, Byte), Integer), CType(CType(202, Byte), Integer), CType(CType(222, Byte), Integer))
         Me.panelHeader.Controls.Add(Me.panelNavigation)
         Me.panelHeader.Controls.Add(Me.imgHeader)
         Me.panelHeader.Dock = Gizmox.WebGUI.Forms.DockStyle.Top
@@ -165,7 +165,7 @@ Partial Class TemplateForm
         Me.panelBody.Anchor = CType((((Gizmox.WebGUI.Forms.AnchorStyles.Top Or Gizmox.WebGUI.Forms.AnchorStyles.Bottom) _
             Or Gizmox.WebGUI.Forms.AnchorStyles.Left) _
             Or Gizmox.WebGUI.Forms.AnchorStyles.Right), Gizmox.WebGUI.Forms.AnchorStyles)
-        Me.panelBody.BackColor = System.Drawing.Color.Pink
+        Me.panelBody.BackColor =  System.Drawing.Color.FromArgb(CType(CType(249, Byte), Integer), CType(CType(202, Byte), Integer), CType(CType(222, Byte), Integer))
         Me.panelBody.Controls.Add(Me.panelFooter)
         Me.panelBody.Controls.Add(Me.panelNavigazione)
         Me.panelBody.Location = New System.Drawing.Point(0, 250)
@@ -175,7 +175,7 @@ Partial Class TemplateForm
         '
         'panelFooter
         '
-        Me.panelFooter.BackColor = System.Drawing.Color.Pink
+        Me.panelFooter.BackColor =  System.Drawing.Color.FromArgb(CType(CType(249, Byte), Integer), CType(CType(202, Byte), Integer), CType(CType(222, Byte), Integer))
         Me.panelFooter.Controls.Add(Me.imgFooter)
         Me.panelFooter.Dock = Gizmox.WebGUI.Forms.DockStyle.Bottom
         Me.panelFooter.Location = New System.Drawing.Point(0, 392)
@@ -198,7 +198,7 @@ Partial Class TemplateForm
         'panelNavigazione
         '
         Me.panelNavigazione.Anchor = Gizmox.WebGUI.Forms.AnchorStyles.Top
-        Me.panelNavigazione.BackColor = System.Drawing.Color.Pink
+        Me.panelNavigazione.BackColor =  System.Drawing.Color.FromArgb(CType(CType(249, Byte), Integer), CType(CType(202, Byte), Integer), CType(CType(222, Byte), Integer))
         Me.panelNavigazione.Controls.Add(Me.lnkEventi)
         Me.panelNavigazione.Controls.Add(Me.lnkDomandeFrequenti)
         Me.panelNavigazione.Controls.Add(Me.lnkLosapevi)
@@ -268,7 +268,7 @@ Partial Class TemplateForm
         'TemplateForm
         '
         Me.AutoScroll = True
-        Me.BackColor = System.Drawing.Color.Pink
+        Me.BackColor =  System.Drawing.Color.FromArgb(CType(CType(249, Byte), Integer), CType(CType(202, Byte), Integer), CType(CType(222, Byte), Integer))
         Me.Controls.Add(Me.panelBody)
         Me.Controls.Add(Me.panelHeader)
         Me.Size = New System.Drawing.Size(1024, 700)

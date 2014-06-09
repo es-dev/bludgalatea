@@ -45,7 +45,7 @@ Partial Class EventiNews
         'panelContenuto
         '
         Me.panelContenuto.Anchor = Gizmox.WebGUI.Forms.AnchorStyles.Top
-        Me.panelContenuto.BackColor = System.Drawing.Color.Pink
+        Me.panelContenuto.BackColor =  System.Drawing.Color.FromArgb(CType(CType(249, Byte), Integer), CType(CType(202, Byte), Integer), CType(CType(222, Byte), Integer))
         Me.panelContenuto.Controls.Add(Me.TemplateEventoNews4)
         Me.panelContenuto.Controls.Add(Me.TemplateEventoNews2)
         Me.panelContenuto.Controls.Add(Me.txtTitle)
@@ -59,7 +59,7 @@ Partial Class EventiNews
         'TemplateEventoNews4
         '
         Me.TemplateEventoNews4.AutoValidate = Gizmox.WebGUI.Forms.AutoValidate.EnablePreventFocusChange
-        Me.TemplateEventoNews4.BackColor = System.Drawing.Color.Pink
+        Me.TemplateEventoNews4.BackColor =  System.Drawing.Color.FromArgb(CType(CType(249, Byte), Integer), CType(CType(202, Byte), Integer), CType(CType(222, Byte), Integer))
         Me.TemplateEventoNews4.Location = New System.Drawing.Point(0, 550)
         Me.TemplateEventoNews4.Name = "TemplateEventoNews4"
         Me.TemplateEventoNews4.Size = New System.Drawing.Size(820, 240)
@@ -73,7 +73,7 @@ Partial Class EventiNews
         'TemplateEventoNews2
         '
         Me.TemplateEventoNews2.AutoValidate = Gizmox.WebGUI.Forms.AutoValidate.EnablePreventFocusChange
-        Me.TemplateEventoNews2.BackColor = System.Drawing.Color.Pink
+        Me.TemplateEventoNews2.BackColor =  System.Drawing.Color.FromArgb(CType(CType(249, Byte), Integer), CType(CType(202, Byte), Integer), CType(CType(222, Byte), Integer))
         Me.TemplateEventoNews2.Location = New System.Drawing.Point(0, 187)
         Me.TemplateEventoNews2.Name = "TemplateEventoNews2"
         Me.TemplateEventoNews2.Size = New System.Drawing.Size(820, 97)
@@ -85,7 +85,7 @@ Partial Class EventiNews
         '
         'txtTitle
         '
-        Me.txtTitle.BackColor = System.Drawing.Color.Pink
+        Me.txtTitle.BackColor =  System.Drawing.Color.FromArgb(CType(CType(249, Byte), Integer), CType(CType(202, Byte), Integer), CType(CType(222, Byte), Integer))
         Me.txtTitle.Font = New System.Drawing.Font("Segoe UI", 15.75!, System.Drawing.FontStyle.Bold)
         Me.txtTitle.ForeColor = System.Drawing.Color.White
         Me.txtTitle.Location = New System.Drawing.Point(0, 30)
@@ -98,7 +98,7 @@ Partial Class EventiNews
         '
         Me.TemplateEventoNews3.Anchor = Gizmox.WebGUI.Forms.AnchorStyles.Top
         Me.TemplateEventoNews3.AutoValidate = Gizmox.WebGUI.Forms.AutoValidate.EnablePreventFocusChange
-        Me.TemplateEventoNews3.BackColor = System.Drawing.Color.Pink
+        Me.TemplateEventoNews3.BackColor =  System.Drawing.Color.FromArgb(CType(CType(249, Byte), Integer), CType(CType(202, Byte), Integer), CType(CType(222, Byte), Integer))
         Me.TemplateEventoNews3.Location = New System.Drawing.Point(0, 290)
         Me.TemplateEventoNews3.Name = "TemplateEventoNews3"
         Me.TemplateEventoNews3.Size = New System.Drawing.Size(820, 250)
@@ -113,7 +113,7 @@ Partial Class EventiNews
         'TemplateEventoNews1
         '
         Me.TemplateEventoNews1.AutoValidate = Gizmox.WebGUI.Forms.AutoValidate.EnablePreventFocusChange
-        Me.TemplateEventoNews1.BackColor = System.Drawing.Color.Pink
+        Me.TemplateEventoNews1.BackColor =  System.Drawing.Color.FromArgb(CType(CType(249, Byte), Integer), CType(CType(202, Byte), Integer), CType(CType(222, Byte), Integer))
         Me.TemplateEventoNews1.Location = New System.Drawing.Point(0, 65)
         Me.TemplateEventoNews1.Name = "TemplateEventoNews1"
         Me.TemplateEventoNews1.Size = New System.Drawing.Size(820, 122)
